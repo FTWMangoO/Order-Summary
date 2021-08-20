@@ -112,6 +112,11 @@ p{
     font-weight: 700;
 }
 
+.card-section a:hover, .card-section a:active{
+    color: hsl(245, 38%, 62%);
+    cursor: pointer;
+}
+
 .btn-container{
     display: flex;
     justify-content: center;
@@ -125,6 +130,11 @@ p{
     margin-top: 4vh;
     border: 0;
     box-shadow: 0 2px 8px 0 hsl(245, 39%, 72%);
+}
+
+.btn:hover, .btn:active{
+    background-color: hsl(245, 38%, 62%);
+    cursor: pointer;
 }
 
 .btn-text{
@@ -141,6 +151,11 @@ p{
     font-weight: 700;
     color: hsl(222, 8%, 49%);
     font-size: 1.2em;
+}
+
+.cancel:hover, .cancel:active{
+    color: rgb(31, 28, 28);
+    cursor: pointer;
 }
 
 
